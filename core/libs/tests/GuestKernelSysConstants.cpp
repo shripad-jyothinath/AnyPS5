@@ -22,6 +22,7 @@ int main() {
     Require(sceKernelEventLogInit() == 0);
     Require(sceKernelIsGenuineKratosCex() == 0);
     Require(sceKernelReleaseTraceDirectMemory() == 0);
+    Require(sceKernelIsM2DeviceAttached() == 0);
 
     Require(sceKernelHasNeoMode() == 1);
     Require(sceKernelIsAuthenticNeo() == 1);

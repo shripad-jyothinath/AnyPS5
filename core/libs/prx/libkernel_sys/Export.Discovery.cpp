@@ -1333,7 +1333,6 @@ int APS5_VABI sceKernelIsGenuineN(void) {
 }
 
 int APS5_VABI sceKernelIsM2DeviceAttached(void) {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
